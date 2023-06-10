@@ -1,0 +1,28 @@
+@media (max-width: 575px) {
+  /* banner */
+  h1 {
+    font-size: 30px;
+  }
+  .name-job {
+    left: 20%;
+    top: 50%;
+  }
+
+  /* navbar */
+  #nav-bar {
+    max-width: 500px;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .avatar {
+    display: none;
+  }
+  .border-nav {
+    border-color: #fff !important;
+  }
+  /* chung chi */
+  .border-setup {
+    border-color: #e0ffff !important;
+  }
+}

@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  .name-job {
+    left: 20%;
+    top: 50%;
+  }
+  /* navbar */
+
+  #nav-bar a,
+  #nav-bar i {
+    font-size: 12px;
+  }
+  /* .nav-bar .nav-item:first-child {
+    grid-column: 2/3;
+  }
+  .nav-bar .nav-item:nth-child(3) {
+    grid-column: 5/6;
+  } */
+  .avatar {
+    display: none;
+  }
+  /* info - muc tieeu */
+}

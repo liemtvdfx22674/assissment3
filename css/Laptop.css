@@ -1,0 +1,240 @@
+/*design tổng*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #000;
+}
+
+h2 {
+  padding: 20px 0 5px 0;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 100px auto 100px auto;
+}
+/* banner design*/
+
+.name-job {
+  position: absolute;
+  text-align: center;
+
+  left: 28%;
+  top: 70%;
+}
+
+h1 {
+  font-size: 50px;
+  color: #f96167;
+}
+
+#banner p {
+  font-size: 30px;
+  color: #292826;
+  font-weight: bold;
+}
+#banner {
+  position: relative;
+}
+/*design bar*/
+#nav-bar {
+  position: relative;
+}
+/*.nav-bar {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr 4fr 3fr 3fr 2fr;
+  text-align: center;
+
+  border: 2px solid #b1aeae;
+  justify-content: center;
+}
+.nav-bar .nav-item:first-child {
+  grid-column: 2/3;
+}
+.nav-bar .nav-item:nth-child(3) {
+  grid-column: 5/6;
+}
+.nav-item {
+  border-left: 2px solid #b1aeae;
+}*/
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* #nav-bar .nav-item:last-child,
+#nav-bar .nav-item:nth-child(2) {
+  border-right: 2px solid #b1aeae;
+}*/
+#nav-bar i {
+  color: #0000ff;
+}
+.avatar {
+  position: absolute;
+  left: 45%;
+  top: -50px;
+  border: white solid 10px;
+  border-radius: 99em;
+  min-width: 2.5em;
+}
+/*design thong tin va muc tieu*/
+
+#target {
+  background-color: #e0ffff;
+  text-align: justify;
+}
+
+#personal-info {
+  background-color: #f0fff0;
+}
+#personal-info li {
+  list-style-type: none;
+}
+#personal-info i {
+  color: #0000ff;
+}
+/*design job-info*/
+
+#job-info h2 i {
+  font-size: 50px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.kinhnghiem li,
+.contain-body p {
+  list-style-type: none;
+  font-size: 15px;
+}
+.kinhnghiem,
+.hoatdong,
+.ngonngu {
+  background-color: #f0fff0;
+}
+.hocvan,
+.sothich,
+.kynang {
+  background-color: #e0ffff;
+}
+h6 {
+  margin-top: 20px;
+}
+h6::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -17px;
+  width: 12px;
+  height: 12px;
+  background: blue;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.dot {
+  position: relative;
+}
+.time {
+  padding: 10px 0 10px 0;
+  font-style: italic;
+}
+.contain-s {
+  padding-left: 25px;
+}
+
+.sothich-2 i {
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 110%;
+}
+.sothich-2 p {
+  font-size: 15px;
+}
+.level-lag {
+  background: #777;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  margin: 10px 0 10px 0;
+}
+.kynang-line {
+  display: flex;
+  gap: 20px;
+}
+.bluee {
+  background: blue;
+}
+
+/*design chung chi giai thuong*/
+#certificate {
+  background-color: #e0ffff;
+}
+
+.chungchi-grid li {
+  list-style-type: none;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.chungchi-2 {
+  border-left: 2px solid #d6c08d;
+  padding-left: 20px;
+  position: relative;
+}
+
+#certificate p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*design du an*/
+#project {
+  background-color: #f0fff0;
+}
+
+.nam {
+  border-radius: 99em;
+}
+
+.project-link {
+  color: #000;
+}
+
+.project-link:hover,
+.project-link:active {
+  text-decoration: none;
+  color: #000;
+}
+
+/*design lien he*/
+.lienhe {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  background-color: #e0ffff;
+  margin-top: 40px;
+}
+.lienhe a {
+  padding: 30px 0;
+  text-decoration: none;
+}
+
+.lienhe a:active {
+  color: red;
+}
+.lienhe a:visited {
+  text-decoration: underline;
+}
+.lienhe i {
+  color: #0000ff;
+  font-size: 25px;
+}
+/* av info */
+.hidden {
+  display: none;
+}

@@ -1,0 +1,336 @@
+/*design tổng*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #000;
+}
+
+h2 {
+  padding: 20px 0 20px 0;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 100px auto 100px auto;
+}
+/* banner design*/
+
+.name-job {
+  position: absolute;
+  text-align: center;
+  left: 32%;
+  top: 50%;
+}
+
+h1 {
+  font-size: 50px;
+  color: #f96167;
+}
+
+#banner p {
+  font-size: 30px;
+  color: #292826;
+  font-weight: bold;
+}
+/*design bar*/
+#nav-bar {
+  position: relative;
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr 4fr 3fr 3fr 2fr;
+  text-align: center;
+
+  /*border: 2px solid #b1aeae;*/
+  justify-content: center;
+}
+.nav-bar .nav-item:first-child {
+  grid-column: 2/3;
+}
+.nav-bar .nav-item:nth-child(3) {
+  grid-column: 5/6;
+}
+.nav-item {
+  border-left: 2px solid #b1aeae;
+}
+#nav-bar a {
+  /*border-right: 2px solid #b1aeae;*/
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+#nav-bar .nav-item:last-child,
+#nav-bar .nav-item:nth-child(2) {
+  border-right: 2px solid #b1aeae;
+}
+#nav-bar i {
+  color: #0000ff;
+}
+.avatar {
+  position: absolute;
+  left: 45%;
+  top: -50px;
+  border: white solid 10px;
+  border-radius: 99em;
+  min-width: 2.5em;
+}
+/*design thong tin va muc tieu*/
+/* #about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+} */
+#target,
+#personal-info {
+  width: 50%;
+}
+#target {
+  background-color: #e0ffff;
+  text-align: justify;
+}
+
+#personal-info {
+  background-color: #f0fff0;
+}
+#personal-info li {
+  list-style-type: none;
+}
+#personal-info i {
+  color: #0000ff;
+}
+/*design job-info*/
+/* #job-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+
+  gap: 20px;
+} */
+/* #job-info h2 i {
+  font-size: 50px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.kinhnghiem,
+.hocvan,
+.hoatdong,
+.sothich,
+.ngonngu,
+.kynang {
+  padding: 20px 20px 10px 20px;
+  text-align: justify;
+  border: 2px black solid;
+}
+.kinhnghiem li,
+.contain-body p {
+  list-style-type: none;
+  font-size: 15px;
+}*/
+.kinhnghiem,
+.hoatdong,
+.ngonngu {
+  background-color: #f0fff0;
+}
+.hocvan,
+.sothich,
+.kynang {
+  background-color: #e0ffff;
+}
+/*
+h6 {
+  margin-top: 20px;
+}
+h6::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -17px;
+  width: 12px;
+  height: 12px;
+  background: blue;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.dot {
+  position: relative;
+}
+.time {
+  padding: 10px 0 10px 0;
+  font-style: italic;
+}
+.contain-s {
+  padding-left: 25px;
+}
+.sothich-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+.sothich-2 i {
+  font-size: 25px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  display: inline;
+  padding-top: 10px;
+  color: blue;
+}
+.sothich-2 p {
+  font-size: 15px;
+}
+.level-lag {
+  background: #777;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  margin: 10px 0 10px 0;
+}
+.kynang-line {
+  display: flex;
+  gap: 20px;
+}
+.bluee {
+  background: blue;
+}
+.hientai {
+  background: #456bd9;
+  border: 2px solid transparent;
+  border-radius: 99em;
+  min-width: 2.5em;
+  color: #fff;
+  padding: 0 1em;
+} */
+
+/*design chung chi giai thuong*/
+#certificate {
+  background-color: #e0ffff;
+  padding: 40px;
+  margin-top: 40px;
+}
+.chungchi-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 60px;
+  column-gap: 30px;
+}
+.chungchi-tong {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.chungchi-grid li {
+  list-style-type: none;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.chungchi-2 {
+  border-left: 2px solid #d6c08d;
+  padding-left: 20px;
+  position: relative;
+}
+.chungchi-2::after {
+  content: "";
+  position: absolute;
+  top: 140px;
+  left: -560px;
+  width: 1100px;
+  height: 2px;
+  background: #d6c08d;
+}
+#certificate p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*design du an*/
+#project {
+  padding: 40px;
+  background-color: #f0fff0;
+  margin-top: 40px;
+}
+.duan-tong {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-content: flex-end;
+}
+.grid-info-duan {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.grid-info-duan p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.duan-cuoi p {
+  border-bottom: none;
+}
+.duan-1,
+.duan-2,
+.duan-3 {
+  border: 2px solid black;
+}
+h3,
+.nam,
+.grid-info-duan {
+  padding: 20px 10px 0px 10px;
+}
+h3 {
+  padding-bottom: 20px;
+}
+.nam {
+  align-items: center;
+  background: #456bd9;
+  border: 2px solid transparent;
+  border-radius: 99em;
+  color: #fff;
+  display: flex;
+  justify-self: center;
+  min-width: 2.5em;
+  padding: 0 1em;
+  position: relative;
+}
+.nam-funix-dev {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30px;
+}
+.nam-funix-dev p {
+  align-items: center;
+}
+/*design lien he*/
+.lienhe {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  background-color: #e0ffff;
+  margin-top: 40px;
+}
+.lienhe a {
+  padding: 30px 0;
+  text-decoration: none;
+}
+.lienhe a:hover {
+  font-size: 30px;
+}
+.lienhe a:active {
+  color: red;
+}
+.lienhe a:visited {
+  text-decoration: underline;
+}
+.lienhe i {
+  color: #0000ff;
+  font-size: 25px;
+}
